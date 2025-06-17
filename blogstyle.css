@@ -1,0 +1,55 @@
+:root {
+  /* colors */
+  --yalow: #fede67;
+  --bg_color: linear-gradient(to right, #2b4134, #395c46);
+  --green: #1c2d23;
+  --mix_green: #273e34;
+  --top_level_green: #395c46;
+  --gray: #c5c2c9;
+  --mix_gray: #191919;
+  --white: white;
+  --mix_white1: #e9e9e9;
+  --mix_white2: #eeedeb;
+  --black: #070707;
+
+  /* border */
+  --F_border: 1px solid var(--green);
+  --S_border: 1px solid rgba(39, 12, 12, 0.31);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Chennai';
+  src: url('../fonts/Chennai-Regular.woff2') format('woff2'),
+       url('../fonts/Chennai-Regular.woff') format('woff'),
+       url('../fonts/Chennai-Regular.otf') format('opentype');
+}
+
+body {
+  user-select: none;
+  height: 100vh;
+  background-color: var(--mix_white2); }
+
+.logo-txt {
+  color: #fede67;
+  margin-left: 55px;
+  margin-top: -38px;
+  font-size: 25px;
+  /* font-family: "Lobster", cursive; */
+}
+
+.navbar {
+  font-family: "Lobster", cursive;
+  background-image: var(--bg_color);
+  width: 100%;
+}
+
+.blog-section {
+  border-radius: 10px; 
+  background-color: white;
+}
